@@ -1,0 +1,11 @@
+height_in_inches,weight_in_lbs,appointment_id,participant_id,has_diabetes,has_hypertension
+52,253,863500cd-4174-4918-b754-daf4d7138053,1a9666c2-f48b-45fc-9316-67014f174612,True,False
+71,126,4a3fa2af-c053-4adc-93f8-4ad1ecbd7adb,28be61ad-6b62-47b5-ab02-d5b79f03cfb8,False,True
+62,125,e0089ed9-6951-4b7d-9bda-f4c0454d3ca7,9cf19e59-5192-4764-b537-e2f39974f06f,False,False
+67,176,56d19636-3c8e-4100-b15b-9d19ce2329b0,337e0d65-c5bd-482f-b712-15b3cdcee735,True,True
+71,244,fa510a1d-376d-4fa7-8df4-30680b0ab03d,f7c0b6be-953b-40d4-877b-ae0b1e8834da,True,True
+61,194,06f8c6a5-23c3-41d1-9acf-473e1c527e8a,59bbb728-4fed-4ee9-bd83-1be748de327b,True,False
+52,259,99094ff9-ed75-4461-bcb2-ca8dced557b6,2bb3b66a-4671-4cf9-ad7c-979135f683c3,False,False
+64,205,f1ea7018-d448-46f4-9dcf-33379487b5c5,1a9666c2-f48b-45fc-9316-67014f174612,False,False
+55,265,4c23a259-1fa9-42cc-a95c-5753a76b41c6,b72b8df8-4585-437e-a3d4-bfc6a76e54c2,True,True
+56,112,38e8ce4b-2855-4af5-9636-72ba34ed2e91,8dec4269-a32c-43bd-a988-58e322d3eace,True,False
