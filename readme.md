@@ -14,7 +14,7 @@ To solve this task, you must use **both** Python and SQL, but feel free to `pip 
 
 ### Python
 
-To
+0. Using a GET request, pull down `appointments.csv` and `people.csv` from this [link](https://github.com/ipph-development/programming-analyst-interview-test) 
 
 1. Remove \n from the address column
 
@@ -39,4 +39,8 @@ To
 
 ### SQL
 
-Repeat steps #1 through #9 with SQL.
+0. Download the `appointments.db` and `people.db` SQLite files from [this link](https://github.com/ipph-development/programming-analyst-interview-test)
+
+Repeat steps #1 through #8, this time using SQL.
+
+10.  Export the combined dataset as `combined.db`
