@@ -20,9 +20,9 @@ To solve this task, you must use **both** Python and SQL, but feel free to `pip 
 
 2. Extract out the zipcode using **regex**
 
-3. “Null out” all phone numbers not in this format: `XXX-XXX-XXXX`. For example, 779-477-6793
+3. “Null out” all phone numbers not in this format: `XXX-XXX-XXXX`. For example, 779-477-6793 is valid while 779-477-6793-121 is not.
 
-4. Remove participants with duplicate `participant_id`.
+4. Remove all participants with duplicate `participant_id`.
  
 5. “Null out” all `weight_in_lbs` below 90 and above 250
 
@@ -39,8 +39,11 @@ To solve this task, you must use **both** Python and SQL, but feel free to `pip 
 
 ### SQL
 
-0. Download the `appointments.db` and `people.db` SQLite files from [this link](https://github.com/ipph-development/programming-analyst-interview-test)
+1. Download the `appointments.db` and `people.db` SQLite files.
 
 Repeat steps #1 through #8, this time using SQL.
 
-10.  Export the combined dataset as `combined.db`
+10. Export the combined dataset as `combined.db`. 
+
+> Aside: When writing this SQL, if you would rather create a **view**, that is fine too.
+> Aside: If you cannot do **any** or **all** of these steps using SQL, explain why.
