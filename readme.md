@@ -8,7 +8,11 @@ To solve this task, you must use **both** Python and SQL, but feel free to `pip 
 - Do copy operations in `Pandas` like grouping and joining
 - Write SQL
 
-> Important: This task is not timed or “restricted” in any way. So feel free to use Google, Stack Overflow, textbooks, etc. The only thing you cannot do is ask a friend for help! 
+### Important
+
+- This task is not restricted in any way. So feel free to use Google, Stack Overflow, textbooks, etc. The only thing you cannot do is ask a friend for help! 
+
+- This task should not take you longer than 2 hours. If it does, **please stop**. This test is **not** designed to be an all-day assignment!
 
 ## Instructions
 
