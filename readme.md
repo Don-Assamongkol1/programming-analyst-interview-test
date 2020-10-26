@@ -45,5 +45,4 @@ Repeat steps #1 through #8, this time using SQL.
 
 10. Export the combined dataset as `combined.db`. 
 
-> Aside: When writing this SQL, if you would rather create a **view**, that is fine too.
-> Aside: If you cannot do **any** or **all** of these steps using SQL, explain why.
+> Aside: When writing this SQL, if you would rather create a **view**, that is fine too. If you cannot do **any** or **all** of these steps using SQL, explain why.
