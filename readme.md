@@ -8,6 +8,8 @@ To solve this task, you must use **both** Python and SQL, but feel free to `pip 
 - Do copy operations in `Pandas` like grouping and joining
 - Write SQL
 
+Once you have completed the assignment, please email the the Python file(s) and SQL file to paulzakin@bsd.uchicago.edu
+
 ### Important
 
 - This task is not restricted in any way. So feel free to use Google, Stack Overflow, textbooks, etc. The only thing you cannot do is ask a friend for help! 
@@ -47,4 +49,5 @@ To solve this task, you must use **both** Python and SQL, but feel free to `pip 
 1. Download the `data.db` file from [this link](https://github.com/ipph-development/programming-analyst-interview-test/blob/main/data.db). This database is simply the combination of the appointments.csv and people.csv you have already worked with above. I recommend exploring and executing SQL against the Sqlite3 dataset using the free GUI [Beekeeper](https://www.beekeeperstudio.io) but the choice is yours.
 
 2. Find the average weight of all `sex assigned at birth` female participants without duplicate `participant_id`. Hint: this will require the use of JOINs and/or subqueries.
+
 
