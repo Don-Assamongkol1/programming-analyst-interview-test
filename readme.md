@@ -27,9 +27,9 @@ Once you have completed the assignment, please email the the Python file(s) and 
 
 2. Replace \n in the address column with a `" "`
 
-3. Extract out the zipcode into a new column called `zipcode` using **regex**. For this test, you can assume that the zipcode will always be a five-digit number.
+3. Extract out the zipcode into a new column called `zipcode` using **regex**. For this test, you can assume that the zipcode will always be a five-digit number. Hint: Pandas has a method called `str.extract`.
 
-4. Replace all phone numbers not in this format: `XXX-XXX-XXXX` with the string “INVALID”. For example, 779-477-6793 is valid while 779-477-6793-121 is not.
+4. Bonus: Replace all phone numbers not in this format: `XXX-XXX-XXXX` with the string “INVALID”. For example, 779-477-6793 is valid while 779-477-6793-121 is not.
  
 5. Replace `weight_in_lbs` below 90 and above 250 with `np.nan`.
 
@@ -40,11 +40,11 @@ Once you have completed the assignment, please email the the Python file(s) and 
    2. `has_hypertension` is true
    3. `has_diabetes` is also true
    
-8.  Create another column, `BMI_by_sex`, which contains the average BMI of each sex. Hint: This will require you to `INNER JOIN` the datasets. Be sure to remove any duplicate `participant_id` from both the person and appointments DataFrame before you do!
+8.  Bonus: Create another column, `BMI_by_sex`, which contains the average BMI of each sex. Hint: This will require you to `INNER JOIN` the datasets. Be sure to remove any duplicate `participant_id` from both the person and appointments DataFrame before you do!
 
 9.  Export the combined dataset as `combined.csv`.
 
-### SQL
+### Bonus: SQL
 
 1. Download the `data.db` file from [this link](https://github.com/ipph-development/programming-analyst-interview-test/blob/main/data.db). This database is simply the combination of the appointments.csv and people.csv you have already worked with above. I recommend exploring and executing SQL against the Sqlite3 dataset using the free GUI [Beekeeper](https://www.beekeeperstudio.io) but the choice is yours.
 
