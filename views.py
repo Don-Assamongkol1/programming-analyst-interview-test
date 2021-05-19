@@ -1,6 +1,6 @@
 class View():
-    def view_type():
-         print(type(x).__name__)
+    def view_type(self):
+        return type(self).__name__
 
 class ListView(View):
     pass # no operation
