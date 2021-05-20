@@ -44,9 +44,9 @@ Once you have completed the assignment, please email the the Python file(s) and 
 
 9.  Export the combined dataset as `combined.csv`.
 
-## Python
+## Bonus: Python
 
-10.  You will working on a simple class hierarchy that has View as a base type which is a simplification of the class-based views OO construct in the Django framework.  Each kind of view offers a bit different functionality, and we can use multiple inheritance in python to compose a new View type from existing ones.  In our case, 
+10. You will working on a simple class hierarchy that has View as a base type which is a simplification of the class-based views OO construct in the Django framework.  Each kind of view offers a bit different functionality, and we can use multiple inheritance in python to compose a new View type from existing ones.  In our case, 
 ListView and DetailView extend View
 SearchView extends DetailView
 SearchResultsView extends ListView and SearchView
