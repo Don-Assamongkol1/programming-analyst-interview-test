@@ -6,7 +6,6 @@ To solve this task, you must use **both** Python and SQL, but feel free to `pip 
 - Import and export data as CSVs
 - Clean messy data
 - Do copy operations in `Pandas` like grouping and joining
-- Write SQL
 
 Once you have completed the assignment, please email the the Python file(s) and SQL file to paulzakin@bsd.uchicago.edu
 
