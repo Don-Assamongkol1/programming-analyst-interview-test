@@ -34,7 +34,7 @@ Once you have completed the assignment, please email the the Python file(s) and 
 
 6. Create a `bmi` column: [formula here](https://www.cdc.gov/nccdphp/dnpao/growthcharts/training/bmiage/page5_2.html).
    
-7. Create a `metabolic_syndrome` column which is `True` 
+7. Bonus: Create a `metabolic_syndrome` column which is `True` 
    1. The participant has a `bmi` > 30, 
    2. `has_hypertension` is true
    3. `has_diabetes` is also true
