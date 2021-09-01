@@ -13,7 +13,7 @@ Once you have completed the assignment, please email the the Python file(s) and 
 
 - This task is not restricted in any way. So feel free to use Google, Stack Overflow, textbooks, etc. The only thing you cannot do is ask a friend for help! 
 
-- This task should **not** take you longer than 3 hours. It took that last developer ~ 1 hour to complete it fully. If you exceed three hours, **please stop**. This test is **not** designed to be an all-day assignment. We specifically made a bunch of questions **bonus**.
+- This task should **not** take you longer than 3 hours. It took that last developer ~ 1 hour to complete it fully. If you exceed three hours, **please stop**. This test is **not** designed to be an all-day assignment. We made a bunch of questions **bonus** specifically so you don't have to go over time.
 
 ## Instructions
 
