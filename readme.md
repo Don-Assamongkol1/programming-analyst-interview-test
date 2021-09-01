@@ -52,10 +52,3 @@ SearchView extends DetailView
 SearchResultsView extends ListView and SearchView
 
 Extend the code in the file [views.py](https://raw.githubusercontent.com/ipph-development/programming-analyst-interview-test/main/views.py) to create this class hierarchy. You will not implement any methods, just the hierarchy of classes. The classes will be empty as indiciated by having the *pass* keyword follow the *class* signature declaration. You will not implement any methods.  'views.py` already has driver code to test the class hierarchy.
-
-### Bonus: SQL
-
-1. Download the `data.db` file from [this link](https://github.com/ipph-development/programming-analyst-interview-test/blob/main/data.db). This database is simply the combination of the appointments.csv and people.csv you have already worked with above. I recommend exploring and executing SQL against the Sqlite3 dataset using the free GUI [Beekeeper](https://www.beekeeperstudio.io) but the choice is yours.
-
-2. Find the average weight of all `sex assigned at birth` female participants without duplicate `participant_id`. Hint: this will require the use of JOINs and/or subqueries.
-
