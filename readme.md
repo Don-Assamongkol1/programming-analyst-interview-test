@@ -1,6 +1,6 @@
 ## Overview
 
-To solve this task, you must use **both** Python and SQL, but feel free to `pip install` whatever library you would like. This task is designed to test your ability to:
+To solve these tasks, you must use both Python and Pandas, but otherwise feel free to `pip install` whatever library you would like. These tasks are designed to test your ability to:
 
 - Call REST APIs
 - Import and export data as CSVs
@@ -8,13 +8,13 @@ To solve this task, you must use **both** Python and SQL, but feel free to `pip 
 - Do copy operations in `Pandas` like grouping and joining
 - Write Python
 
-Once you have completed the assignment, please email the Python file(s) to paulzakin@bsd.uchicago.edu
+Once you have completed the assignment, please email the Python files to paulzakin@bsd.uchicago.edu.
 
 ### Important
 
-- This task is not restricted in any way. So feel free to use Google, Stack Overflow, textbooks, etc. The only thing you cannot do is ask a friend for help! 
+- This task is not restricted in any way. So feel free to use Google, Stack Overflow, etc. The only thing you cannot do is ask a friend for help! 
 
-- This task should **not** take you longer than 3 hours. It took that last developer ~ 1 hour to complete it fully. If you exceed three hours, **please stop**. This test is **not** designed to be an all-day assignment. We made a bunch of questions **bonus** specifically, so you don't have to go over time.
+- This task should **not** take you longer than 3 hours. It took that last developer ~ 1 hour to complete it fully. If you exceed three hours, **please stop**. This test is **not** designed to be an all-day assignment. We made a bunch of questions **bonus** specifically so you don't have to go over time.
 
 ## Instructions
 
