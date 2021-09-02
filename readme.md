@@ -6,18 +6,19 @@ To solve this task, you must use **both** Python and SQL, but feel free to `pip 
 - Import and export data as CSVs
 - Clean messy data
 - Do copy operations in `Pandas` like grouping and joining
+- Write Python
 
-Once you have completed the assignment, please email the the Python file(s) and SQL file to paulzakin@bsd.uchicago.edu
+Once you have completed the assignment, please email the Python file(s) to paulzakin@bsd.uchicago.edu
 
 ### Important
 
 - This task is not restricted in any way. So feel free to use Google, Stack Overflow, textbooks, etc. The only thing you cannot do is ask a friend for help! 
 
-- This task should **not** take you longer than 3 hours. It took that last developer ~ 1 hour to complete it fully. If you exceed three hours, **please stop**. This test is **not** designed to be an all-day assignment. We made a bunch of questions **bonus** specifically so you don't have to go over time.
+- This task should **not** take you longer than 3 hours. It took that last developer ~ 1 hour to complete it fully. If you exceed three hours, **please stop**. This test is **not** designed to be an all-day assignment. We made a bunch of questions **bonus** specifically, so you don't have to go over time.
 
 ## Instructions
 
-### Python
+### Pandas
 
 1. Using a GET request, pull down appointments.csv and people.csv from these links and convert them into DataFrames:
    
@@ -26,7 +27,7 @@ Once you have completed the assignment, please email the the Python file(s) and 
 
 2. Replace \n in the address column with a `" "`
 
-3. Extract out the zipcode into a new column called `zipcode` using **regex**. For this test, you can assume that the zipcode will always be a five-digit number. Hint: Pandas has a method called `str.extract`.
+3. Extract out the `zipcode` into a new column called `zipcode` using **regex**. For this test, you can assume that the `zipcode` will always be a five-digit number. Hint: Pandas has a method called `str.extract`.
 
 4. Bonus: Replace all phone numbers not in this format: `XXX-XXX-XXXX` with the string “INVALID”. For example, 779-477-6793 is valid while 779-477-6793-121 is not.
  
@@ -43,11 +44,29 @@ Once you have completed the assignment, please email the the Python file(s) and 
 
 9.  Bonus: Export the combined dataset as `combined.csv`.
 
-## Bonus: Python
+### Python
 
-10. You will working on a simple class hierarchy that has View as a base type which is a simplification of the class-based views OO construct in the Django framework.  Each kind of view offers a bit different functionality, and we can use multiple inheritance in python to compose a new View type from existing ones.  In our case, 
-ListView and DetailView extend View
-SearchView extends DetailView
-SearchResultsView extends ListView and SearchView
+Write a simple Request class whose constructor takes a single parameter of `path`. The concept of path is constrained to just refer to two elements resource and `id` in the form `resource_name/id`
 
-Extend the code in the file [views.py](https://raw.githubusercontent.com/ipph-development/programming-analyst-interview-test/main/views.py) to create this class hierarchy. You will not implement any methods, just the hierarchy of classes. The classes will be empty as indiciated by having the *pass* keyword follow the *class* signature declaration. You will not implement any methods.  'views.py` already has driver code to test the class hierarchy.
+#### Tasks    
+
+- Validate that the path that was passed was a string. Raise a `TypeError` with the message "Path should be a string with two elements".
+  
+- Split the path based on the "/" delimiter. You can leave off handling a case where a wrong delimiter was passed in.  
+  
+- Check the first element of the path is a word. [Hint](https://docs.python.org/3/library/stdtypes.html#str.isalpha).
+  
+- Assign to an instance variable `resource` if this is true and raise `ValueError` if it is not.
+  
+- Check the second element is an integral number.
+  
+- Assign to an instance variable `id` if this is true and raise ValueError if it is not.
+  
+- If these assignments worked out, go ahead and set a boolean instance variable `valid`. 
+
+#### Deliverable Notes
+
+- All the code you write will be in the constructor of a class Request found in a module `server`.
+- Unit tests are provided for you that reiterate the above specification of tasks.  
+- To test your code, run the following from your project root directory `python -m unittest` 
+
